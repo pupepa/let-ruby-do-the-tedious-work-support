@@ -9,7 +9,7 @@
 
 ## 正誤表
 
-[errata.md](errata.md) を参照してください。
+[errata.md](https://github.com/pupepa/let-ruby-do-the-tedious-work-support/documents/errata.md) を参照してください。
 
 ## 本書についてのお問い合わせ
 
