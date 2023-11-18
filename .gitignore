@@ -89,3 +89,10 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 .credentials
+
+# ignore input/output/download files for sample code
+
+sample_code/**/input
+sample_code/**/out
+sample_code/**/downloads
+
