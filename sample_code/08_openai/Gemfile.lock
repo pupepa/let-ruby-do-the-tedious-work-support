@@ -1,25 +1,28 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    base64 (0.1.1)
-    faraday (2.7.11)
-      base64
-      faraday-net_http (>= 2.0, < 3.1)
-      ruby2_keywords (>= 0.0.4)
+    event_stream_parser (1.0.0)
+    faraday (2.9.0)
+      faraday-net_http (>= 2.0, < 3.2)
     faraday-multipart (1.0.4)
       multipart-post (~> 2)
-    faraday-net_http (3.0.2)
-    multipart-post (2.3.0)
-    ruby-openai (5.1.0)
+    faraday-net_http (3.1.0)
+      net-http
+    multipart-post (2.4.0)
+    net-http (0.4.1)
+      uri
+    ruby-openai (6.5.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
       faraday (>= 1)
       faraday-multipart (>= 1)
-    ruby2_keywords (0.0.5)
+    uri (0.13.0)
 
 PLATFORMS
-  arm64-darwin-22
+  arm64-darwin-23
+  ruby
 
 DEPENDENCIES
   ruby-openai
 
 BUNDLED WITH
-   2.4.10
+   2.5.3
